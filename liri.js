@@ -12,7 +12,7 @@ var keys = require("./keys");
 
 var nothingVar = "";
 
-//;
+//comment looks good!;
 
 var expression = process.argv[2];
 
