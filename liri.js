@@ -11,7 +11,7 @@ var keys = require("./keys");
 var expression = process.argv[2];
 
 var hello = "hello";
-
+var newCode = "double branch changes";
 switch (expression) {
     case 'my-tweets':
         getTweets();
