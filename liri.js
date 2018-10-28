@@ -8,6 +8,10 @@ var request = require('request');
 var keys = require("./keys");
 //jfdlasjfdslkfjlsdj
 //another comment
+//third comment
+
+var nothingVar = "";
+
 var expression = process.argv[2];
 
 var hello = "hello";
