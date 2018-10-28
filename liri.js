@@ -10,7 +10,7 @@ var keys = require("./keys");
 var expression = process.argv[2];
 
 var hello = "hello";
-var change = "double changes";
+
 switch (expression) {
     case 'my-tweets':
         getTweets();
