@@ -7,6 +7,7 @@ var request = require('request');
 
 var keys = require("./keys");
 //jfdlasjfdslkfjlsdj
+//another comment
 var expression = process.argv[2];
 
 var hello = "hello";
@@ -29,7 +30,7 @@ switch (expression) {
 function getTweets() {
     var client = new Twitter(keys.twitter);
     var params = { screen_name: 'roommatefinder3' };
-    client.get('statuses/user_timeline', params, function (error, tweets, response) {
+    client.get('statuses/user_timeline', params, function (error, tweets, res) {
         if (!error) {
             for (var i = 0; i < 5; i++) {
                 console.log(tweets[i].text)
@@ -45,10 +46,9 @@ function mySong(song) {
     }
     spotify.search({ type: 'track', query: "" }, function (err, data) {
         if (err) {
-            return console.log('Error occurred: ' + err);
+            return console.log('An error occurred: ' + err);
         }
 
         console.log(data);
     });
-
 }
