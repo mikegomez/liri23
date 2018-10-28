@@ -9,6 +9,7 @@ var keys = require("./keys");
 
 var expression = process.argv[2];
 
+var hello = "hello";
 
 switch (expression) {
     case 'my-tweets':
